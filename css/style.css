@@ -1,3 +1,92 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #7581a1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+h1 {
+    color: #192b59;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: -2.4px;
+    width: 497px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.page-logo {
+    padding-top: 50px;
+}
+
+.nav {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #6e7ea9;
+    letter-spacing: 2.4px;
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.btn-free {
+    padding: 25px 57px;
+    width: 190px;
+    height: 60px;
+    border-radius: 30px;
+    font-weight: normal;
+    background-color: #1085e4;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.grid h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #192b59;
+    letter-spacing: -1.2px;
+}
+
+.grid h2 span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #1085e4;
+    letter-spacing: 2.8px;
+}
+
+.grid-item h3 {
+    color: #192b59;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -0.6px;
+}
+
+.grid-item a {
+    height: 12px;
+    color: #1085e4;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
 }
