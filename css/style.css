@@ -158,6 +158,57 @@ a {
     flex-wrap: wrap;
 }
 
+.grid {
+    display: grid;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    grid-template-areas: "a b c"
+        "d b c"
+        "d f g"
+        "e f g"
+        "e h h";
+    max-width: 1110px;
+    margin: 0 auto;
+    grid-gap: 30px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.grid-title {
+    grid-area: a;
+}
+
+.grid-item-1 {
+    grid-area: b;
+}
+
+.grid-item-2 {
+    grid-area: c;
+}
+
+.grid-item-3 {
+    grid-area: d;
+}
+
+.grid-item-4 {
+    grid-area: e;
+}
+
+.grid-item-5 {
+    grid-area: f;
+}
+
+.grid-item-6 {
+    grid-area: g;
+}
+
+.grid-text {
+    grid-area: h;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+
 .grid h2 {
     font-size: 40px;
     font-weight: 700;
@@ -176,12 +227,23 @@ a {
     letter-spacing: 2.8px;
 }
 
+
+.grid-item {
+    box-shadow: 0 0 5px #b4a6a6;
+    text-align: center;
+    padding-bottom: 69px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+}
+
 .grid-item h3 {
     color: #192b59;
     font-size: 20px;
     font-weight: 600;
     line-height: 50px;
     letter-spacing: -0.6px;
+    margin-bottom: 25px;
 }
 
 .grid-item a {
@@ -192,6 +254,61 @@ a {
     line-height: 26px;
 }
 
+.grid-icon {
+    background-repeat: no-repeat;
+    display: block;
+    margin: 38px auto;
+
+}
+
+.grid-icon1 {
+    background-image: url(../img/icon1.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon2 {
+    background-image: url(../img/icon2.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon3 {
+    background-image: url(../img/icon3.png);
+    width: 89px;
+    height: 85px;
+}
+
+.grid-icon4 {
+    background-image: url(../img/icon4.png);
+    width: 103px;
+    height: 92px;
+}
+
+.grid-icon5 {
+    background-image: url(../img/icon5.png);
+    width: 85px;
+    height: 90px;
+}
+
+.grid-icon6 {
+    background-image: url(../img/icon6.png);
+    width: 100px;
+    height: 87px;
+}
+
+.grid-text-founder {
+    color: #1085e4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.grid-text-founder span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #7581a1;
+}
 
 .page-subscribe {
     background-color: #12224b;
@@ -363,16 +480,15 @@ a {
 }
 
 .box-subscribe {
-    position: relative;
     display: flex;
     justify-content: space-between;
-
+    padding-top: 119px;
+    padding-bottom: 52px;
 }
 
 .box-subscribe h2 {
     color: #ffffff;
     margin-left: -4px;
-    
 }
 
 .box-subscribe p {
@@ -386,29 +502,104 @@ a {
     margin-left: -4px;
 }
 
-.box-subscribe input[type="email"] {
+.box-subscribe-user {
+    position: relative;
+}
 
+.box-subscribe-user input[type="email"] {
     width: 540px;
     height: 70px;
     border-radius: 35px;
     border: 2px solid rgba(255, 255, 255, 0.2);
     background-color: #12224b;
+    outline: none;
+    color: white;
+    box-sizing: border-box;
+    padding-right: 220px;
+    border: 2px solid;
+    box-shadow: 3px 3px 15px 5px #12224b;
 }
 
-.box-subscribe input[type="submit"] {
+.box-subscribe-user input[type="submit"] {
     position: absolute;
     width: 190px;
     height: 50px;
     border-radius: 25px;
     background-color: #1085e4;
-    top: 305px;
-    left: 380px;
+    top: 10px;
+    right: 10px;
+    outline: none;
 }
+
+/* СТИЛИЗАЦИЯ ПЛЭЙСХОЛДЕРА ******************************************** */
 
 .box-subscribe input[placeholder="Enter your email address"] {
     padding-left: 41px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
-.box-subscribe img {
-    margin: 52px 0;
+.box-subscribe-user input::-webkit-input-placeholder {
+    color: #b1c3ee;
+    ;
 }
+
+
+
+.box-subscribe-user input::-moz-placeholder {
+    color: #b1c3ee;
+    ;
+}
+
+.box-subscribe-user input:-moz-placeholder {
+    color: #b1c3ee;
+    ;
+}
+
+.box-subscribe-user input:-ms-input-placeholder {
+    color: #b1c3ee;
+    ;
+}
+
+.box-subscribe-user input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.box-subscribe-user input::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.box-subscribe-user input:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.box-subscribe-user input:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.box-subscribe-user input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.box-subscribe-user input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.box-subscribe-user input:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.box-subscribe-user input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* СТИЛИЗАЦИЯ ПЛЭЙСХОЛДЕРА ******************************************** */
