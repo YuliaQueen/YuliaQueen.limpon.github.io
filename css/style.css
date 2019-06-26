@@ -312,7 +312,86 @@ a {
 
 .page-subscribe {
     background-color: #12224b;
-    background-image: linear-gradient(-240deg, #0a2090 0%, #76a0ca 100%);
+    background-image: linear-gradient(-240deg, #0d162e 0%, #1085e4 100%);
+}
+
+.page-software {
+    background-image: url(../img/software-fon.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position-x: left;
+    background-position-y: bottom;
+
+}
+
+.page-software-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page-software-flex>div {
+    flex-basis: 55%;
+    padding: 48px 0 20px 0;
+}
+
+.page-software .title-h2 {
+    max-width: 537px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    margin-left: -10px;
+}
+
+.page-software-list {
+    margin-top: 38px;
+    height: 340px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.page-software-list dt {
+    color: #5a6789;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.page-software-list dd {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.page-software-list::-webkit-scrollbar {
+    width: 4px;
+    height: 314px;
+    background-color: #f3f6ff;
+}
+
+.page-software-list::-webkit-scrollbar-track {
+    background-color: #f3f6ff;
+    ;
+}
+
+.page-software-list::-webkit-scrollbar-track-piece {
+    background-color: #ffffff;
+}
+
+.page-software-list::-webkit-scrollbar-thumb {
+    height: 20px;
+    background-color: #1085e4;
+    border-radius: 4px;
+}
+
+.page-software-icon {
+    display: block;
+    background-image: url(../img/software-icon.png);
+    width: 115px;
+    height: 97px;
+    background-repeat: no-repeat;
+    margin-left: -25px;
 }
 
 .list-stat {
@@ -346,6 +425,68 @@ a {
 .page-stat .title-h2 {
     text-align: center;
 }
+
+.page-app {
+    position: relative;
+    background: url(../img/Intro.png) no-repeat 39% top, url(../img/circle.png) no-repeat -50% 80%;
+}
+
+.page-app-text {
+    color: #c4d2dd;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    margin-top: 37px;
+    margin-bottom: 30px;
+}
+
+.page-app-list {
+    padding: 0;
+    margin-left: -17px;
+    list-style-type: none;
+    padding-bottom: 121px;
+}
+
+.page-app-list>li>a {
+    background-image: url(../img/sprite-app.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 185px;
+    height: 78px;
+}
+
+.page-app-list>li {
+    display: inline-block;
+}
+
+
+.page-app-android {
+    background-position: 0 0;
+}
+
+.page-app-ios {
+    background-position: -191px;
+}
+
+.content-app {
+    width: 55%;
+}
+
+.content-app .title-h2 {
+    margin-top: 122px;
+    margin-left: -7px;
+    margin-bottom: 41px;
+}
+
+.video-app {
+    position: absolute;
+    top: -20px;
+    right: 100px;
+}
+
+
 
 .title-h2 {
     color: #192b59;
