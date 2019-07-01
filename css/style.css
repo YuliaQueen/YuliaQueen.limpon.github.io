@@ -592,6 +592,11 @@ a {
     margin-bottom: 58px;
 }
 
+
+.page-screen {
+    margin-bottom: 120px;
+}
+
 .page-screen h2 {
     font-size: 40px;
     max-width: 600px;
@@ -605,6 +610,86 @@ a {
     margin-bottom: -7px;
 }
 
+.page-clients {
+    background-image: url(../img/testimonials-fon.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px 0 137px 0;
+}
+
+.page-clients span {
+    color: #85c8ff;
+    padding-left: 12px;
+}
+
+.page-clients h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1.2px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    display: inline-block;
+    text-align: left;
+}
+
+.box-clients {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-clients-item {
+    display: inline-block;
+    flex-basis: 32%;
+    box-shadow: 0 16px 32px rgba(185, 185, 185, 0.2);
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.box-clients-item .box-clients-text {
+    margin: 15px auto;
+    color: #8085b1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.box-clients-item .name {
+    color: #000958;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.66px;
+    padding: 0;
+    margin: 0;
+}
+
+.box-clients-item .position {
+    color: #1085e4;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    padding: 0;
+    margin: 0;
+    margin-top: -15px;
+    ;
+}
+
+.box-avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.avatar {
+    padding-right: 20px;
+}
+
 .page-plan h2 {
     text-align: center;
 }
@@ -613,6 +698,7 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 81px;
+    margin-bottom: 120px;
 }
 
 .box-price-item {
@@ -739,6 +825,87 @@ a {
     outline: none;
 }
 
+
+.page-team {
+    background-image: url(../img/page-team-fon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.page-team h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -1.2px;
+}
+
+.page-team span {
+    color: #85c8ff;
+    padding-left: 12px;
+}
+
+.box-team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+    margin-top: 120px;
+}
+
+.box-team-item {
+    flex-basis: 32%;
+    box-shadow: 0 8px 10px rgba(156, 156, 156, 0.1);
+    background-color: #fff;
+    position: relative;
+    padding: 180px 0 80px 0;
+    
+}
+
+
+.box-team-item .position {
+    color: #1a88e1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    margin-bottom: 0;
+}
+
+.box-team-item .name {
+    color: #192b59;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.78px;
+    margin-top: 0;
+}
+
+.box-team-item .avatar {
+    position: absolute;
+    top: -86px;
+    left: 25px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.box-team-item .btn-more {
+    display: block;
+    background-image: url(../img/btn-more.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.box-team-item .btn-more:focus {
+    outline: none;
+}
+
 /* СТИЛИЗАЦИЯ ПЛЭЙСХОЛДЕРА ******************************************** */
 
 .box-subscribe input[placeholder="Enter your email address"] {
@@ -750,24 +917,24 @@ a {
 
 .box-subscribe-user input::-webkit-input-placeholder {
     color: #b1c3ee;
-    ;
+
 }
 
 
 
 .box-subscribe-user input::-moz-placeholder {
     color: #b1c3ee;
-    ;
+
 }
 
 .box-subscribe-user input:-moz-placeholder {
     color: #b1c3ee;
-    ;
+
 }
 
 .box-subscribe-user input:-ms-input-placeholder {
     color: #b1c3ee;
-    ;
+
 }
 
 .box-subscribe-user input::-webkit-input-placeholder {
